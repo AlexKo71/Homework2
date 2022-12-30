@@ -50,9 +50,9 @@ public class Main {
         var differenceWeight = oneBoxerWeight - twoBoxerWeight;
         System.out.println("Разница между весами двух бойцов равна " + differenceWeight + " кг");
         var modulusDifferenceWeight = twoBoxerWeight - oneBoxerWeight;
-        System.out.println("Разница между весами двух спортсменов равна " + modulusDifferenceWeight + " кг!");
+        System.out.println("Разница между весами двух спортсменов равна " + modulusDifferenceWeight + " кг");
         modulusDifferenceWeight = twoBoxerWeight % oneBoxerWeight;
-        System.out.println("Разница между весами двух боксеров равна " + modulusDifferenceWeight + " кг!");
+        System.out.println("Разница между весами двух боксеров равна " + modulusDifferenceWeight + " кг");
         System.out.println();
 
         var allTime = 640;
@@ -61,7 +61,7 @@ public class Main {
         System.out.println("Всего работников в компании — " + numberCoworker + " человек");
         var newNumberCoworker = numberCoworker + 94;
         var newPersonTime = allTime / newNumberCoworker;
-        System.out.println("Если в компании работает " + newNumberCoworker + " человека, то всего " + newPersonTime + " часа работы может быть поделено между сотрудниками!");
+        System.out.println("Если в компании работает " + newNumberCoworker + " человека, то всего " + newPersonTime + " часа работы может быть поделено между сотрудниками");
 
 
 
